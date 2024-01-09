@@ -1,0 +1,145 @@
+@import url('https://fonts.cdnfonts.com/css/cascadia-code');
+
+/*---------- Home Page ----------*/
+body {
+    margin: 0px;
+    background-color: #FFFBFC;
+    color: #7B7263;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Cascadia Code', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #7B7263;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header img {
+    max-width: 40vw;
+    padding: 0px;
+}
+
+.colour1 {
+    background-color: #2f3061  
+}
+
+.colour1 p {
+    font-size: 0.5rem;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 0px 20px;
+    color: #2f3061;
+    transition: 0.3s;
+}
+
+svg {
+    fill: #2f3061;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #2f3061;
+    color: #FFFBFC;
+}
+
+.navbar a:hover svg {
+    fill: #FFFBFC
+}
+
+.mission-split {
+    display: flex;
+}
+
+.mission-statement h1{
+    color: #2f3061;
+}
+
+.mission-text {
+    width: 60vw;
+}
+
+.mission-split p {
+    padding: 12px;
+    margin: 0px 2vw;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.mission-text img {
+    width: 85%
+}
+
+.featured-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.featured-content a {
+    display: flex;
+    justify-content: center;
+}
+
+.featured-content a:hover .featured-item {
+    width: 85vw;
+}
+
+.featured-content h1 {
+    color: #2f3061;
+}
+
+.featured-item {
+    display: flex;
+    justify-content: center;
+    border: #2f3061;
+    border-style: solid;
+    width: 80vw;
+    margin: 12px;
+    align-items: center;
+    padding: 12px;
+    align-self: center;
+    transition: 0.3s;
+}
+
+.item-image {
+    width: 20vw;
+    padding: 8px;
+}
+
+.item-image img{
+    width: 100%;
+}
+
+.item-details {
+    width: 60vw;
+}
+
+.item-details h1 {
+    font-size: 1.5rem;
+}
+.item-details h2 {
+    font-size: 1.3rem;
+    text-align: left;
+    margin-top: 0px;
+}
+.item-details h3 {
+    font-size: 1.2rem;
+}
+.item-details p {
+    font-size: 1.0rem;
+}
+
+/*---------- Events Page ----------*/
